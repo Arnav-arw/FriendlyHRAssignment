@@ -11,7 +11,7 @@ import SwiftUI
 struct FriendlyHRAssignmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

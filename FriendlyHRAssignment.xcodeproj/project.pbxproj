@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A139A2D2BB04900007D183D /* jobs.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A139A2C2BB04900007D183D /* jobs.json */; };
+		6A139A302BB04918007D183D /* JobsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A139A2F2BB04918007D183D /* JobsManager.swift */; };
+		6A139A332BB049F1007D183D /* Jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A139A322BB049F1007D183D /* Jobs.swift */; };
+		6A139A352BB04F3A007D183D /* JobsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A139A342BB04F3A007D183D /* JobsViewModel.swift */; };
+		6A139A382BB04FB8007D183D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A139A372BB04FB8007D183D /* HomeView.swift */; };
+		6A139A3A2BB055A3007D183D /* JobCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A139A392BB055A3007D183D /* JobCardView.swift */; };
+		6A139A3D2BB05969007D183D /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6A139A3C2BB05969007D183D /* SDWebImageSwiftUI */; };
+		6A139A3F2BB06038007D183D /* JobListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A139A3E2BB06038007D183D /* JobListView.swift */; };
+		6A139A412BB0606B007D183D /* JobDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A139A402BB0606B007D183D /* JobDetailView.swift */; };
 		6A4E811C2BAF3FA600A004DA /* FriendlyHRAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E811B2BAF3FA600A004DA /* FriendlyHRAssignmentApp.swift */; };
-		6A4E811E2BAF3FA600A004DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E811D2BAF3FA600A004DA /* ContentView.swift */; };
 		6A4E81202BAF3FA700A004DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4E811F2BAF3FA700A004DA /* Assets.xcassets */; };
 		6A4E81232BAF3FA700A004DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4E81222BAF3FA700A004DA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A139A2C2BB04900007D183D /* jobs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jobs.json; sourceTree = "<group>"; };
+		6A139A2F2BB04918007D183D /* JobsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsManager.swift; sourceTree = "<group>"; };
+		6A139A322BB049F1007D183D /* Jobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jobs.swift; sourceTree = "<group>"; };
+		6A139A342BB04F3A007D183D /* JobsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsViewModel.swift; sourceTree = "<group>"; };
+		6A139A372BB04FB8007D183D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6A139A392BB055A3007D183D /* JobCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCardView.swift; sourceTree = "<group>"; };
+		6A139A3E2BB06038007D183D /* JobListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListView.swift; sourceTree = "<group>"; };
+		6A139A402BB0606B007D183D /* JobDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailView.swift; sourceTree = "<group>"; };
+		6A139A422BB0623A007D183D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6A4E81182BAF3FA600A004DA /* FriendlyHRAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendlyHRAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4E811B2BAF3FA600A004DA /* FriendlyHRAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendlyHRAssignmentApp.swift; sourceTree = "<group>"; };
-		6A4E811D2BAF3FA600A004DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A4E811F2BAF3FA700A004DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A4E81222BAF3FA700A004DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,12 +42,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A139A3D2BB05969007D183D /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A139A2E2BB0490B007D183D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6A139A2F2BB04918007D183D /* JobsManager.swift */,
+				6A139A342BB04F3A007D183D /* JobsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6A139A312BB049EC007D183D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A139A322BB049F1007D183D /* Jobs.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A139A362BB04FA6007D183D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A139A372BB04FB8007D183D /* HomeView.swift */,
+				6A139A3E2BB06038007D183D /* JobListView.swift */,
+				6A139A392BB055A3007D183D /* JobCardView.swift */,
+				6A139A402BB0606B007D183D /* JobDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6A4E810F2BAF3FA600A004DA = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +96,12 @@
 		6A4E811A2BAF3FA600A004DA /* FriendlyHRAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				6A139A422BB0623A007D183D /* Info.plist */,
 				6A4E811B2BAF3FA600A004DA /* FriendlyHRAssignmentApp.swift */,
-				6A4E811D2BAF3FA600A004DA /* ContentView.swift */,
+				6A139A362BB04FA6007D183D /* Views */,
+				6A139A312BB049EC007D183D /* Model */,
+				6A139A2E2BB0490B007D183D /* ViewModel */,
+				6A139A2C2BB04900007D183D /* jobs.json */,
 				6A4E811F2BAF3FA700A004DA /* Assets.xcassets */,
 				6A4E81212BAF3FA700A004DA /* Preview Content */,
 			);
@@ -83,6 +132,9 @@
 			dependencies = (
 			);
 			name = FriendlyHRAssignment;
+			packageProductDependencies = (
+				6A139A3C2BB05969007D183D /* SDWebImageSwiftUI */,
+			);
 			productName = FriendlyHRAssignment;
 			productReference = 6A4E81182BAF3FA600A004DA /* FriendlyHRAssignment.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +163,9 @@
 				Base,
 			);
 			mainGroup = 6A4E810F2BAF3FA600A004DA;
+			packageReferences = (
+				6A139A3B2BB05969007D183D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 6A4E81192BAF3FA600A004DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A139A2D2BB04900007D183D /* jobs.json in Resources */,
 				6A4E81232BAF3FA700A004DA /* Preview Assets.xcassets in Resources */,
 				6A4E81202BAF3FA700A004DA /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A4E811E2BAF3FA600A004DA /* ContentView.swift in Sources */,
+				6A139A352BB04F3A007D183D /* JobsViewModel.swift in Sources */,
+				6A139A3F2BB06038007D183D /* JobListView.swift in Sources */,
 				6A4E811C2BAF3FA600A004DA /* FriendlyHRAssignmentApp.swift in Sources */,
+				6A139A3A2BB055A3007D183D /* JobCardView.swift in Sources */,
+				6A139A302BB04918007D183D /* JobsManager.swift in Sources */,
+				6A139A382BB04FB8007D183D /* HomeView.swift in Sources */,
+				6A139A332BB049F1007D183D /* Jobs.swift in Sources */,
+				6A139A412BB0606B007D183D /* JobDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +337,7 @@
 				DEVELOPMENT_TEAM = KH8B299556;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FriendlyHRAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +367,7 @@
 				DEVELOPMENT_TEAM = KH8B299556;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FriendlyHRAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +408,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6A139A3B2BB05969007D183D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6A139A3C2BB05969007D183D /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A139A3B2BB05969007D183D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6A4E81102BAF3FA600A004DA /* Project object */;
 }

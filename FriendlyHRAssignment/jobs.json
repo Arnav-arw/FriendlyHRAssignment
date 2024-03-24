@@ -1,0 +1,263 @@
+{
+    "jobs": [
+        {
+            "id": 127817,
+            "internal_job_id": 144381,
+            "companyName": "Bad Cop",
+            "updated_at": "2016-01-14T10:55:28-05:00",
+            "requisition_id": "50",
+            "location": "NYC",
+            "absolute_url": "https://boards.greenhouse.io/vaulttec/jobs/127817",
+            "companyLogo": "https://picsum.photos/seed/1711232519227/300/300",
+            "jobDetail": {
+                "jobName": "iOS Developer",
+                "jobDescription": "We are looking for an iOS Developer to join our team. You will be working with our engineers to develop and maintain high quality mobile applications. If you’re passionate about mobile platforms and translating code into user-friendly apps, we would like to meet you. As an iOS Developer, you’ll collaborate with internal teams to develop functional mobile applications, while working in a fast-paced environment. Ultimately, you should be able to design and build the next generation of our mobile applications.",
+                "jobType": "Full Time",
+                "jobLocation": "NYC",
+                "jobResponsibilities": [
+                    "Design and build advanced applications for the iOS platform",
+                    "Collaborate with cross-functional teams to define, design, and ship new features",
+                    "Unit-test code for robustness, including edge cases, usability, and general reliability",
+                    "Work on bug fixing and improving application performance",
+                    "Continuously discover, evaluate, and implement new technologies to maximize development efficiency"
+                ],
+                "jobQualifications": [
+                    "Proven working experience in software development",
+                    "Working experience in iOS development",
+                    "Have published one or more iOS apps in the app store",
+                    "A deep familiarity with Objective-C and Cocoa Touch",
+                    "Experience working with iOS frameworks such as Core Data, Core Animation, Core Graphics and Core Text",
+                    "Experience with third-party libraries and APIs",
+                    "Working knowledge of the general mobile landscape, architectures, trends, and emerging technologies",
+                    "Solid understanding of the full mobile development life cycle"
+                ],
+                "salary": {
+                    "from": 200000,
+                    "to": 300000
+                },
+                "job_mode": "Remote"
+            }
+        },
+        {
+            "id": 235712,
+            "internal_job_id": 144382,
+            "companyName": "Good Cop",
+            "updated_at": "2016-02-14T09:45:12-05:00",
+            "requisition_id": "51",
+            "location": "San Francisco",
+            "absolute_url": "https://boards.greenhouse.io/vaulttec/jobs/235712",
+            "companyLogo": "https://picsum.photos/seed/1711232519228/300/300",
+            "jobDetail": {
+                "jobName": "Android Developer",
+                "jobDescription": "We are seeking an Android Developer to join our team in developing high-quality Android applications. If you have a passion for mobile technologies and want to work on innovative projects, we would love to hear from you. As an Android Developer, you will collaborate with a team of talented engineers to design and build new features for our Android applications, ensuring they are robust and easy to maintain.",
+                "jobType": "Full Time",
+                "jobLocation": "San Francisco",
+                "jobResponsibilities": [
+                    "Design and build advanced applications for the Android platform",
+                    "Collaborate with cross-functional teams to define, design, and ship new features",
+                    "Work with outside data sources and APIs",
+                    "Unit-test code for robustness, including edge cases, usability, and general reliability",
+                    "Work on bug fixing and improving application performance"
+                ],
+                "jobQualifications": [
+                    "Bachelor’s degree in Computer Science, Engineering or a related subject",
+                    "Proven software development experience and Android skills development",
+                    "Experience with Android SDK, third-party libraries, and APIs",
+                    "Understanding of Google’s Android design principles and interface guidelines",
+                    "Solid understanding of the full mobile development life cycle"
+                ],
+                "salary": {
+                    "from": 100000,
+                    "to": 150000
+                },
+                "job_mode": "Onsite"
+            }
+        },
+        {
+            "id": 345678,
+            "internal_job_id": 144383,
+            "companyName": "Tech Innovators",
+            "updated_at": "2016-03-20T11:30:00-05:00",
+            "requisition_id": "52",
+            "location": "Seattle",
+            "absolute_url": "https://boards.greenhouse.io/vaulttec/jobs/345678",
+            "companyLogo": "https://picsum.photos/seed/1711232519229/300/300",
+            "jobDetail": {
+                "jobName": "Backend Developer",
+                "jobDescription": "Tech Innovators is looking for a Backend Developer to join our team in Seattle. You will work closely with our frontend and mobile app development teams to create and maintain scalable and robust backend solutions. The ideal candidate will have experience with modern backend technologies and a strong understanding of database management and APIs.",
+                "jobType": "Full Time",
+                "jobLocation": "Seattle",
+                "jobResponsibilities": [
+                    "Develop and maintain backend services and APIs",
+                    "Collaborate with frontend and mobile app development teams to integrate user-facing elements with server-side logic",
+                    "Implement security and data protection measures",
+                    "Optimize application for maximum speed and scalability",
+                    "Design and implement data storage solutions"
+                ],
+                "jobQualifications": [
+                    "Bachelor’s degree in Computer Science, Engineering, or related field",
+                    "Proven work experience as a Backend Developer or similar role",
+                    "Experience with server-side languages such as Python, Node.js, or Java",
+                    "Familiarity with databases (e.g., MySQL, MongoDB) and web servers (e.g., Apache, Nginx)",
+                    "Experience with cloud technologies (e.g., AWS, Google Cloud)",
+                    "Understanding of Agile methodologies",
+                    "Excellent analytical and problem-solving skills"
+                ],
+                "salary": {
+                    "from": 150000,
+                    "to": 300000
+                },
+                "job_mode": "Onsite"
+            }
+        },
+        {
+            "id": 456789,
+            "internal_job_id": 144384,
+            "companyName": "Data Wizards",
+            "updated_at": "2016-04-25T08:15:00-05:00",
+            "requisition_id": "53",
+            "location": "Chicago",
+            "absolute_url": "https://boards.greenhouse.io/vaulttec/jobs/456789",
+            "companyLogo": "https://picsum.photos/seed/1711232519230/300/300",
+            "jobDetail": {
+                "jobName": "Data Scientist",
+                "jobDescription": "Data Wizards is seeking a Data Scientist to join our team in Chicago. You will analyze large datasets to extract valuable insights and contribute to the development of data-driven solutions. The ideal candidate will have strong analytical skills and experience with statistical analysis and machine learning techniques.",
+                "jobType": "Full Time",
+                "jobLocation": "Chicago",
+                "jobResponsibilities": [
+                    "Perform exploratory data analysis to identify trends and patterns",
+                    "Develop predictive models using statistical and machine learning techniques",
+                    "Collaborate with cross-functional teams to understand business requirements and translate them into analytical solutions",
+                    "Present findings and insights to stakeholders in a clear and understandable manner",
+                    "Stay up-to-date with the latest trends and advancements in data science"
+                ],
+                "jobQualifications": [
+                    "Master’s or Ph.D. in Computer Science, Statistics, Mathematics, or related field",
+                    "Proven experience as a Data Scientist or similar role",
+                    "Strong programming skills in languages such as Python or R",
+                    "Experience with data visualization tools (e.g., Matplotlib, Seaborn)",
+                    "Knowledge of machine learning algorithms and techniques",
+                    "Experience with big data technologies (e.g., Hadoop, Spark)",
+                    "Excellent communication and presentation skills",
+                    "Ability to work independently and collaboratively in a team environment"
+                ],
+                "salary": {
+                    "from": 200000,
+                    "to": 300000
+                },
+                "job_mode": "Hybrid"
+            }
+        },
+        {
+            "id": 567890,
+            "internal_job_id": 144385,
+            "companyName": "Creative Minds",
+            "updated_at": "2016-05-30T14:20:00-05:00",
+            "requisition_id": "54",
+            "location": "Los Angeles",
+            "absolute_url": "https://boards.greenhouse.io/vaulttec/jobs/567890",
+            "companyLogo": "https://picsum.photos/seed/1711232519231/300/300",
+            "jobDetail": {
+                "jobName": "UI/UX Designer",
+                "jobDescription": "Creative Minds is looking for a talented UI/UX Designer to join our team in Los Angeles. You will be responsible for creating intuitive and visually appealing user interfaces for web and mobile applications. The ideal candidate will have a strong portfolio showcasing their design skills and a deep understanding of user-centered design principles.",
+                "jobType": "Full Time",
+                "jobLocation": "Los Angeles",
+                "jobResponsibilities": [
+                    "Gather and evaluate user requirements in collaboration with product managers and engineers",
+                    "Illustrate design ideas using storyboards, process flows, and wireframes",
+                    "Design graphic user interface elements, like menus, tabs, and widgets",
+                    "Create prototypes that clearly demonstrate how sites and applications function and look",
+                    "Conduct usability testing to identify and resolve UI/UX issues"
+                ],
+                "jobQualifications": [
+                    "Bachelor’s degree in Design, Human-Computer Interaction, or related field",
+                    "Proven work experience as a UI/UX Designer or similar role",
+                    "Portfolio of design projects demonstrating strong UI/UX skills",
+                    "Proficiency in design tools such as Adobe XD, Sketch, or Figma",
+                    "Understanding of front-end technologies (HTML, CSS, JavaScript)",
+                    "Knowledge of usability principles and techniques",
+                    "Excellent communication and collaboration skills"
+                ],
+                "salary": {
+                    "from": 90000,
+                    "to": 120000
+                },
+                "job_mode": "Onsite"
+            }
+        },
+        {
+            "id": 678901,
+            "internal_job_id": 144386,
+            "companyName": "Tech Titans",
+            "updated_at": "2016-06-15T13:10:00-05:00",
+            "requisition_id": "55",
+            "location": "Austin",
+            "absolute_url": "https://boards.greenhouse.io/vaulttec/jobs/678901",
+            "companyLogo": "https://picsum.photos/seed/1711232519232/300/300",
+            "jobDetail": {
+                "jobName": "DevOps Engineer",
+                "jobDescription": "Tech Titans is seeking a DevOps Engineer to join our team in Austin. You will be responsible for automating and streamlining our operations and processes, deploying and maintaining our cloud infrastructure, and ensuring the reliability and scalability of our systems. The ideal candidate will have a strong background in software development and experience with cloud technologies.",
+                "jobType": "Full Time",
+                "jobLocation": "Austin",
+                "jobResponsibilities": [
+                    "Design, build, and maintain CI/CD pipelines to enable continuous integration and deployment",
+                    "Automate deployment, scaling, and management of containerized applications",
+                    "Monitor and optimize system performance, reliability, and scalability",
+                    "Implement and maintain security best practices for infrastructure and applications",
+                    "Collaborate with development and operations teams to troubleshoot and resolve issues"
+                ],
+                "jobQualifications": [
+                    "Bachelor’s degree in Computer Science, Engineering, or related field",
+                    "Proven work experience as a DevOps Engineer or similar role",
+                    "Strong programming and scripting skills (e.g., Python, Bash)",
+                    "Experience with cloud platforms such as AWS, Azure, or GCP",
+                    "Proficiency in containerization and orchestration tools (e.g., Docker, Kubernetes)",
+                    "Knowledge of infrastructure as code tools (e.g., Terraform, CloudFormation)",
+                    "Understanding of networking concepts and protocols",
+                    "Excellent problem-solving and communication skills"
+                ],
+                "salary": {
+                    "from": 200000,
+                    "to": 250000
+                },
+                "job_mode": "Onsite"
+            }
+        },
+        {
+            "id": 789012,
+            "internal_job_id": 144387,
+            "companyName": "E-commerce Innovations",
+            "updated_at": "2016-07-20T12:00:00-05:00",
+            "requisition_id": "56",
+            "location": "New York City",
+            "absolute_url": "https://boards.greenhouse.io/vaulttec/jobs/789012",
+            "companyLogo": "https://picsum.photos/seed/1711232519233/300/300",
+            "jobDetail": {
+                "jobName": "E-commerce Specialist",
+                "jobDescription": "E-commerce Innovations is looking for an E-commerce Specialist to join our team in New York City. You will be responsible for managing and optimizing our online store, driving traffic and sales, and implementing strategies to improve the customer experience. The ideal candidate will have a strong understanding of e-commerce platforms and digital marketing techniques.",
+                "jobType": "Full Time",
+                "jobLocation": "New York City",
+                "jobResponsibilities": [
+                    "Manage and optimize e-commerce platforms (e.g., Shopify, Magento)",
+                    "Develop and implement strategies to drive traffic and increase conversions",
+                    "Analyze data to identify trends and opportunities for optimization",
+                    "Collaborate with marketing and design teams to create compelling campaigns and promotions",
+                    "Monitor and report on key performance metrics"
+                ],
+                "jobQualifications": [
+                    "Bachelor’s degree in Marketing, Business Administration, or related field",
+                    "Proven work experience in e-commerce or digital marketing",
+                    "Familiarity with e-commerce platforms and tools (e.g., Shopify, Google Analytics)",
+                    "Understanding of SEO, SEM, and social media marketing",
+                    "Strong analytical skills and data-driven mindset",
+                    "Excellent communication and collaboration skills"
+                ],
+                "salary": {
+                    "from": 150000,
+                    "to": 300000
+                },
+                "job_mode": "Remote"
+            }
+        }
+    ]
+}
