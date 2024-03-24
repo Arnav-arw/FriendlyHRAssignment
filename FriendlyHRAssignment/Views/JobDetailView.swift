@@ -104,7 +104,11 @@ struct JobDetailView: View {
                 }
                 HStack {
                     Button {
-                        
+                        UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+                        let url = URL(string: job.absolute_url)!
+                        if UIApplication.shared.canOpenURL(url) {
+                            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                        }
                     } label: {
                         Text("Apply")
                             .foregroundStyle(.white)
